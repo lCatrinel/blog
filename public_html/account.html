@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Account - MyBlog</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	</head>
+	
+	<body>	
+			<div class="row">
+				<div class="col-md-2" ></div>
+				<div class="col-md-8">
+					
+					<ul>
+						<li><a class="floatright" href="login.html">Login  </a></li>
+						<li><a class="floatright" href="register.html">Register  </a></li>
+					</ul><br>
+					<div class="header"><h1>This is my blog! Yei</h1></div>
+					<div class="panel panel-default">
+						<div class="menu">
+							<ul class="nav nav-tabs">
+								<li> <a href="../index.html">Home</a> </li>
+								<li> <a href="contact.html">Contact</a> </li>
+								<li> <a href="account.html">Account</a> </li>
+							</ul>
+						</div>
+						<div class="panel-body">
+							<div class="body">
+								 <form role="form">
+									<div class="form-group">
+										<label for="bthdate">Birth date:</label>
+										<fieldset class='birthday-picker'>
+											<select class='birth-year' name='birth[year]'></select>
+											<select class='birth-month' name='birth[month]'></select>
+											<select class='birth-day' name='birth[day]'></select>
+											<input type='hidden' name='birthdate' />
+										</fieldset>
+		  							</div>
+									<div class="form-group">
+										<label for="gender">Gender:</label>
+										<br>
+										<input type="radio" name="sex" value="male" checked>Male
+										
+										<input type="radio" name="sex" value="female">Female
+									</div>
+									<div class="form-group">
+										<label for="bthdate">Language:</label>
+										<br>
+										<select name="mytextarea">
+											<option name="ro" value="Ro"> Romana </option>
+											<option name="en" value="En"> Engleza </option>
+											<option name="fr" value="Fr"> Franceza </option>
+										</select>
+									</div>
+									
+									<br>
+									<button type="save" class="btn btn-default">Save changes</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+			<div class="footer">
+				<hr>
+	  			<a href="../index.html">Home</a>	  			
+			</div>	
+	</body>
+
+</html>
